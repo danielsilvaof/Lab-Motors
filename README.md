@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento e Controle de Estoque – LAB Motos
 
-`Curso: Engenharia de Software`  
+`Curso: Análise e Desenvolvimento de Sistemas`  
 `Disciplina: Projeto Integrado`  
 `Semestre: 1º Semestre`
 
