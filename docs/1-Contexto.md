@@ -1,46 +1,60 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto tem como finalidade o desenvolvimento de um **sistema de gerenciamento e controle de estoque** para a oficina **LAB Motos**, localizada em Santa Luzia/MG e gerida por Cristiano Domingues.  
+Atualmente, o gerenciamento de peças e componentes é realizado manualmente em planilhas do Excel, o que gera inconsistências, erros de registro, lentidão no processo e ineficiência na reposição de itens.  
+
+O sistema proposto tem como visão geral substituir os métodos manuais por uma ferramenta informatizada, baseada em banco de dados, que permita organizar melhor as informações, automatizar as movimentações de estoque, gerar relatórios gerenciais e, assim, apoiar a tomada de decisão do proprietário e colaboradores.
+
+---
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O principal problema identificado é a **falta de controle preciso do estoque** da oficina LAB Motos.  
+O processo manual, realizado em planilhas do Excel, dificulta a gestão de entradas e saídas de peças, aumenta a chance de falhas, causa atrasos no atendimento e pode gerar perdas financeiras, além de comprometer a satisfação dos clientes.  
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O contexto em que a aplicação será usada é o de uma **oficina mecânica de pequeno porte**, que lida diariamente com manutenção de motocicletas e precisa de reposição ágil e confiável de peças.  
+Sem um sistema informatizado, há riscos de rupturas no estoque, dificuldade para identificar itens disponíveis e problemas no relacionamento com fornecedores e clientes.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+---
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+**Objetivo Geral:**  
+Desenvolver um sistema de controle de estoque com base em banco de dados para a oficina LAB Motos, substituindo o processo manual por uma solução informatizada, precisa e automatizada.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Objetivos Específicos:**  
+* Modelar um banco de dados para registrar peças, fornecedores e movimentações de estoque.  
+* Implementar um protótipo funcional que permita cadastro, consulta e atualização de itens.  
+* Gerar relatórios gerenciais para identificar rupturas e avaliar a performance de fornecedores.  
+* Reduzir inconsistências, melhorar a eficiência operacional e otimizar o tempo dedicado às atividades administrativas.  
+
+---
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha por desenvolver este sistema se justifica pela **necessidade real da oficina LAB Motos**, que enfrenta limitações significativas com o uso de planilhas manuais.  
+Além disso, oficinas de pequeno porte e microempreendedores individuais (MEIs) em geral carecem de soluções acessíveis e personalizadas para a gestão de estoque.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A implementação de um sistema informatizado contribuirá para:  
+* Eliminar inconsistências e falhas de registro.  
+* Facilitar a reposição de peças e o acompanhamento do estoque em tempo real.  
+* Apoiar a tomada de decisão com relatórios gerenciais.  
+* Servir como modelo replicável para outras oficinas e negócios de pequeno porte que enfrentam problemas semelhantes.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+---
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo principal é o **proprietário da LAB Motos, Cristiano Domingues, e seus colaboradores diretos**, que realizarão a gestão do estoque no dia a dia.  
+Secundariamente, o sistema pode beneficiar outros microempreendedores do setor automotivo que enfrentam dificuldades semelhantes.  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+### Perfis identificados:
+* **Proprietário/Gestor**: responsável pela compra de peças, negociação com fornecedores e acompanhamento dos relatórios.  
+* **Colaboradores da oficina**: utilizam o sistema para registrar a entrada e saída de peças durante os serviços de manutenção.  
+* **Clientes finais** (indiretamente): se beneficiam pela agilidade e transparência no atendimento, já que a oficina terá melhor controle sobre prazos e disponibilidade de peças.  
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+### Personas
+* **Tiago Nélio (Cliente Final)** – 38 anos, assistente jurídico. Usa a moto no dia a dia, não entende de mecânica, busca praticidade e confiança no serviço.  
+* **Cristiano Ronaldo Ribeiro Matos (Cliente Profissional)** – utiliza serviços frequentes da oficina para manter veículos de uso profissional. Busca eficiência, confiabilidade e disponibilidade de peças.  
+
+Esses perfis refletem os diferentes tipos de usuários impactados pelo sistema, reforçando a importância de uma solução digital e automatizada.

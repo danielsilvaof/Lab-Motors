@@ -1,27 +1,52 @@
 ## 3. Modelagem dos Processos de Negócio
 
+### 3.1. Modelagem da situação atual (Modelagem AS-IS)
 
-> **Links Úteis**:
-> - [Modelagem de Processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
-> - [20 Dicas Práticas de Modelagem de Processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
+Atualmente, a oficina **LAB Motos** realiza o controle de estoque de forma **manual**, utilizando planilhas do Excel.  
+Esse processo apresenta diversos gargalos e limitações:
 
-### 3.1. Modelagem da situação atual (Modelagem AS IS)
+* **Cadastro de peças**: feito manualmente em planilhas, sujeito a erros de digitação e duplicidades.  
+* **Entradas e saídas de peças**: registradas apenas quando lembrado, muitas vezes de forma incompleta.  
+* **Consulta de disponibilidade**: colaboradores precisam verificar manualmente a planilha, o que gera lentidão no atendimento.  
+* **Relatórios gerenciais**: não há geração automática; quando necessários, exigem manipulação manual das planilhas, demandando tempo e aumentando riscos de inconsistência.  
+* **Gestão de fornecedores**: não há centralização; informações ficam dispersas, dificultando a análise da performance e prazos de entrega.  
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Esse processo manual leva a **inconsistências nos registros, rupturas de estoque, perdas financeiras e atrasos no atendimento ao cliente**.  
+Em síntese, o fluxo atual depende fortemente do esforço humano e não garante confiabilidade.  
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+> **Modelo AS-IS (exemplo simplificado em BPMN):**
+1. Cliente solicita peça/manutenção  
+2. Colaborador verifica manualmente na planilha  
+3. Caso não encontre, consulta diretamente o proprietário  
+4. Proprietário decide se compra ou não a peça  
+5. Atualização manual da planilha (às vezes feita depois, gerando erros)  
 
-### 3.2. Descrição geral da proposta (Modelagem TO BE)
+---
 
-Tendo identificado os gargalos dos modelos AS IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e o seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido. 
-Colem aqui os modelos da solução proposta (modelo TO BE) elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
-Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+### 3.2. Descrição geral da proposta (Modelagem TO-BE)
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+A solução proposta consiste em um **sistema informatizado de controle de estoque**, centralizado em banco de dados, que permitirá:  
+
+* **Cadastro estruturado** de peças, fornecedores e clientes.  
+* **Registro automatizado** de entradas e saídas de estoque.  
+* **Consulta rápida** de disponibilidade de peças por qualquer colaborador.  
+* **Geração de relatórios gerenciais** (estoque mínimo, movimentações, fornecedores mais utilizados, etc.).  
+* **Alertas automáticos** para reposição de peças em risco de ruptura.  
+
+Com isso, o processo será mais ágil, confiável e menos dependente de controles manuais.  
+A solução se alinha diretamente à estratégia da oficina LAB Motos de **reduzir perdas, otimizar processos internos e aumentar a satisfação do cliente**.  
+
+> **Modelo TO-BE (exemplo simplificado em BPMN):**
+1. Cliente solicita peça/manutenção  
+2. Colaborador consulta disponibilidade no sistema (em tempo real)  
+3. Caso não disponível, sistema gera alerta e sugere fornecedor cadastrado  
+4. Proprietário realiza pedido de reposição com base nos relatórios do sistema  
+5. Entradas e saídas registradas automaticamente, com atualização imediata do estoque  
+
+---
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Controle de Estoque (AS-IS e TO-BE)](./processos/processo-1-controle-estoque.md "Detalhamento do processo de controle de estoque.")  
 
-[PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Gestão de Fornecedores (AS-IS e TO-BE)](./processos/processo-2-gestao-fornecedores.md "Detalhamento do processo de gestão de fornecedores.")  
