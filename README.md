@@ -2,7 +2,7 @@
 
 `Curso: Análise e Desenvolvimento de Sistemas`  
 `Disciplina: Projeto Integrado`  
-`Semestre: 1º Semestre`
+`Semestre: 2º Semestre`
 
 Este projeto propõe o desenvolvimento de um **sistema de controle de estoque** para a oficina **LAB Motos**, localizada em Santa Luzia/MG e gerida por Cristiano Domingues. Atualmente, o controle é feito de forma manual em planilhas Excel, o que gera inconsistências e ineficiências.  
 A solução proposta consiste em um sistema baseado em banco de dados, que permita registrar peças, fornecedores e movimentações, automatizando as entradas e saídas, reduzindo falhas, otimizando a reposição de peças e gerando relatórios gerenciais. O objetivo é aumentar a organização interna, reduzir perdas e apoiar a tomada de decisão.
