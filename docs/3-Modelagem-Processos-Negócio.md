@@ -14,7 +14,9 @@ Esse processo apresenta diversos gargalos e limitações:
 Esse processo manual leva a **inconsistências nos registros, rupturas de estoque, perdas financeiras e atrasos no atendimento ao cliente**.  
 Em síntese, o fluxo atual depende fortemente do esforço humano e não garante confiabilidade.  
 
-> **Modelo AS-IS (exemplo simplificado em BPMN):**
+![asis1](image.png)
+![asis2](image-1.png)
+
 1. Cliente solicita peça/manutenção  
 2. Colaborador verifica manualmente na planilha  
 3. Caso não encontre, consulta diretamente o proprietário  
@@ -36,7 +38,9 @@ A solução proposta consiste em um **sistema informatizado de controle de estoq
 Com isso, o processo será mais ágil, confiável e menos dependente de controles manuais.  
 A solução se alinha diretamente à estratégia da oficina LAB Motos de **reduzir perdas, otimizar processos internos e aumentar a satisfação do cliente**.  
 
-> **Modelo TO-BE (exemplo simplificado em BPMN):**
+![tobe1](image-2.png)
+![tobe2](image-3.png)
+
 1. Cliente solicita peça/manutenção  
 2. Colaborador consulta disponibilidade no sistema (em tempo real)  
 3. Caso não disponível, sistema gera alerta e sugere fornecedor cadastrado  
