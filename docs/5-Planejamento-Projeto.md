@@ -1,15 +1,11 @@
-# 5. Planejamento do Projeto
+## **5. Planejamento do Projeto**
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
+O desenvolvimento do projeto foi organizado em etapas curtas para manter o foco, evitar retrabalho e facilitar a entrega contínua. Cada sprint teve metas bem definidas, priorizando primeiro as funcionalidades essenciais e depois as melhorias. As tarefas foram divididas entre os membros da equipe de forma equilibrada, considerando a especialidade e disponibilidade de cada um.
 
----
-
-## 5.1. Divisão de Papéis
-
-Fechou, Daniel — aqui estão **Sprint 1, Sprint 2 e Sprint 3**, todas **EXATAMENTE** como você me mandou, só com as datas adicionadas no mesmo formato.
-Pode copiar e colar direto no GitHub.
+O planejamento também incluiu a definição do escopo mínimo viável (MVP), identificação dos riscos mais prováveis e criação de checkpoints semanais para revisar o progresso. Sempre que necessário, ajustes foram feitos para manter o projeto alinhado ao prazo e às necessidades do cliente. Dessa forma, garantimos que o desenvolvimento ocorresse de maneira organizada, transparente e com evolução constante ao longo do ciclo de trabalho.
 
 ---
+
 
 ## 5.1. Divisão de Papéis
 
@@ -21,9 +17,6 @@ Pode copiar e colar direto no GitHub.
 * Documentação (introdução e contexto): **Felippe Salvo de Mendonça**
 * Testes (validação de requisitos): **Gabriel Max Ferreira Rodrigues**
 * Apoio técnico / integração: **Igor Tiago Ribeiro Matos**
-* *Iniciado em*: **15/08/2025**
-* *Terminado em*: **03/09/2025**
-* *Prazo de entrega*: **05/09/2025**
 
 ### Sprint 2
 
@@ -33,21 +26,17 @@ Pode copiar e colar direto no GitHub.
 * Banco de dados e integração: **Davi Oliveira Parma Assunção**
 * Documentação técnica: **Bruno Silva Moreira**
 * Testes e validação com usuários: **Felippe Salvo de Mendonça**
-* *Iniciado em*: **06/09/2025**
-* *Terminado em*: **01/10/2025**
-* *Prazo de entrega*: **03/10/2025**
 
-### Sprint 3
+### **Sprint 3**
 
 * *Scrum master*: **Gabriel Max Ferreira Rodrigues**
-* Desenvolvimento de novas funcionalidades (front-end): **Bruno Silva Moreira**
-* Desenvolvimento de novas funcionalidades (back-end): **Igor Tiago Ribeiro Matos**
-* Banco de dados, otimização e integração: **Davi Oliveira Parma Assunção**
-* Documentação de evolução do sistema: **Felippe Salvo de Mendonça**
-* Testes, verificação e validação: **Daniel Silva de Oliveira**
-* *Iniciado em*: **04/10/2025**
-* *Terminado em*: **20/10/2025**
-* *Prazo de entrega*: **24/10/2025**
+* Especificação funcional e requisitos: **Felippe Salvo de Mendonça**
+* Diagrama de Classes (UML): **Bruno Silva Moreira**
+* Modelo Conceitual (DER – Peter Chen): **Davi Oliveira Parma Assunção**
+* Modelo Lógico (Pé de Galinha) + Regras do Sistema: **Igor Tiago Ribeiro Matos**
+* Scripts SQL (DDL) e mapeamento para o SGBD: **Daniel Silva de Oliveira**
+* Documentação visual e navegação entre telas: **Bruno Silva Moreira**
+* Validação e revisão dos artefatos: **Gabriel Max Ferreira Rodrigues**
 
 ### Sprint 4
 
@@ -59,9 +48,7 @@ Pode copiar e colar direto no GitHub.
 * *Acompanhamento de Serviços*: **Gabriel Max Ferreira Rodrigues**
 * *Tela Agendamento*: **Igor Tiago Ribeiro Matos**
 * *Tela Kanban / Ordem de Serviço ADM*: **Daniel Silva de Oliveira**
-* *Iniciado em*: **25/10/2025**
-* *Terminado em*: **19/11/2025**
-* *Prazo de entrega*: **21/11/2025**
+
 
 
 ---
@@ -98,8 +85,43 @@ Atualizado em: 04/09/2025
 
 ---
 
-### Legenda
-- ✔️: terminado  
-- 📝: em execução  
-- ⌛: atrasado  
-- ❌: não iniciado  
+### **Sprint 3**
+
+Atualizado em: 20/10/2025
+
+| Responsável   | Tarefa/Requisito                             | Iniciado em |    Prazo   | Status |
+| :------------ | :------------------------------------------- | :---------: | :--------: | :----: |
+| Gabriel Max   | Coordenação da sprint e validação geral      |  04/10/2025 | 20/10/2025 |   ✔️   |
+| Felippe Salvo | Especificação funcional e requisitos         |  04/10/2025 | 10/10/2025 |   ✔️   |
+| Bruno Silva   | Diagrama de Classes (UML) + Navegação visual |  05/10/2025 | 15/10/2025 |   ✔️   |
+| Davi Oliveira | Modelo Conceitual (Peter Chen)               |  04/10/2025 | 12/10/2025 |   ✔️   |
+| Igor Tiago    | Modelo Lógico + Regras do Sistema            |  06/10/2025 | 15/10/2025 |   ✔️   |
+| Daniel Silva  | Scripts SQL (DDL) e mapeamento para o SGBD   |  07/10/2025 | 20/10/2025 |   ✔️   |
+
+---
+
+### **Sprint 4**
+
+Atualizado em: 21/11/2025
+
+| Responsável   | Tarefa/Requisito                     | Iniciado em |    Prazo   | Status |
+| :------------ | :----------------------------------- | :---------: | :--------: | :----: |
+| Felippe Salvo | Coordenação da sprint (Scrum Master) |  25/10/2025 | 19/11/2025 |   ✔️   |
+| João Victor   | Tela de Login e Cadastro             |  25/10/2025 | 10/11/2025 |   ✔️   |
+| Davi Oliveira | Tela Home Page                       |  25/10/2025 | 12/11/2025 |   ✔️   |
+| Bruno Silva   | Tela de Serviços                     |  26/10/2025 | 14/11/2025 |   ✔️   |
+| Felippe Salvo | Painel Administrativo                |  28/10/2025 | 16/11/2025 |   ✔️   |
+| Gabriel Max   | Acompanhamento de Serviços           |  27/10/2025 | 15/11/2025 |   ✔️   |
+| Igor Tiago    | Tela de Agendamento                  |  26/10/2025 | 14/11/2025 |   ✔️   |
+| Daniel Silva  | Tela Kanban / Ordem de Serviço ADM   |  29/10/2025 | 19/11/2025 |   ✔️   |
+
+---
+
+### **Legenda**
+
+* ✔️: terminado
+* 📝: em execução
+* ⌛: atrasado
+* ❌: não iniciado
+
+
