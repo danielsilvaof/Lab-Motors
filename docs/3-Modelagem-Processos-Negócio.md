@@ -68,7 +68,7 @@ Os diferentes setores da oficina operam com pouca integração sistêmica.
 
 ---
 
-### 3.3. Modelagem dos processos
+### 3.3. Desenho dos Processos (TO BE)
 
 A solução proposta consiste em um **sistema informatizado de controle de estoque**, centralizado em banco de dados, que permitirá:  
 
