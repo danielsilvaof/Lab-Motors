@@ -9,27 +9,35 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 Descrição da Tela Principal do Sistema
 
-  A Tela Principal do Sistema apresenta a estrutura completa que desenvolvemos para garantir uma navegação clara e intuitiva aos nossos usuários. No cabeçalho, organizamos o logo da LAB Motos, um espaço destinado a anúncios e o menu que direciona para as principais áreas do site, como Home, Contato, Quem Somos e Serviços, além dos botões de Login e Cadastro para acesso ao sistema. Logo abaixo, incluímos um banner principal destacando o nome da oficina e os serviços que oferecemos, representados por ícones, junto de um botão que leva o usuário diretamente à área de contato para abertura de novas Ordens de Serviço. Também adicionamos uma seção secundária com espaço para imagens ou materiais promocionais e uma área de newsletter onde incentivamos o usuário a se registrar para acompanhar o status dos serviços. Na parte de “Quem Somos”, apresentamos nossos valores, nossa identidade e nossa proposta, acompanhados por uma galeria visual que reforça a credibilidade da marca. Em seguida, disponibilizamos a seção de Contatos, reunindo endereço, telefone, e-mail e redes sociais, além de um botão que leva à página completa de informações. Finalizamos a página com um rodapé contendo nosso logo, slogan, direitos autorais e atalhos para redes sociais, reforçando a identidade da LAB Motos e facilitando o acesso aos nossos canais de comunicação.
+  Na Tela Principal estruturamos toda a navegação inicial do sistema. O cabeçalho contém o logo da LAB Motos, uma área dedicada a anúncios e o menu com links para Home, Serviços, Quem Somos, Contato, além dos botões de Login e Cadastro. Logo abaixo, inserimos um banner funcional com identificação da oficina, lista dos serviços representados por ícones e um botão que redireciona diretamente para a página de contato/abertura de OS. Incluímos também uma seção secundária destinada a imagens ou materiais promocionais e um módulo de newsletter integrado ao fluxo de cadastro. Na área “Quem Somos”, exibimos informações institucionais da empresa acompanhadas por uma galeria de apoio visual. Em seguida, na seção de Contatos, listamos endereço, telefone, e-mail e redes sociais, com um botão que leva ao detalhamento completo. Fechamos a página com um rodapé contendo logo, slogan, direitos autorais e atalhos de navegação, garantindo consistência visual e acesso rápido aos principais canais.
 
 ![alt text](<LAB MOTOS - Home Page.jpg>)
 
 ## 6.2. Telas do processo 1
 
-  A área de cadastro que desenvolvemos tem o objetivo de permitir que novos usuários criem sua conta de forma simples e direta. Nessa seção, apresentamos um formulário completo onde o visitante preenche nome, e-mail, telefone, endereço e define sua senha de acesso. Implementamos validações imediatas para garantir que todos os campos estejam completos, que a senha tenha no mínimo seis caracteres e que a confirmação de senha seja correspondente. Quando o usuário envia o formulário, realizamos o processo de registro através da nossa API de autenticação, exibindo mensagens visuais de erro ou sucesso para garantir clareza durante toda a experiência. Também incluímos um botão de retorno para facilitar a navegação de volta ao login. Ao lado do formulário, exibimos nossa identidade visual e alguns diferenciais da LAB Motos, reforçando confiança e incentivando o usuário a concluir o cadastro.
+  Na seção de login, implementamos um fluxo de autenticação objetivo e padronizado. O usuário insere e-mail e senha em um formulário validado em tempo real, com suporte à funcionalidade “lembrar senha” armazenada via localStorage. Também disponibilizamos o acionamento do fluxo de recuperação de credenciais, que redireciona para a interface de redefinição. Ao enviar o formulário, encaminhamos a requisição à nossa API de autenticação, tratamos os retornos de sucesso ou erro e exibimos notificações através do nosso sistema de feedback. Paralelamente, mantemos um painel visual com a identidade da LAB Motos para reforço de marca. Caso o usuário não possua cadastro, incluímos um atalho direto para a tela de criação de conta. O objetivo dessa seção é garantir um processo de entrada rápido, estável e sem fricção.
+
+![alt text](<LAB MOTOS - Login.jpg>)
+
+
+  Na área de cadastro, implementamos um formulário estruturado para criação de novas contas, contendo os campos de nome, e-mail, telefone, endereço e senha. Aplicamos validações imediatas para garantir preenchimento obrigatório, formato correto de e-mail e força mínima da senha, além da verificação de correspondência entre senha e confirmação. Ao enviar o formulário, enviamos os dados para a nossa API de autenticação, tratamos respostas de erro (como e-mail já registrado ou formato inválido) e exibimos feedback visual ao usuário. Também adicionamos um botão de retorno para navegação direta ao login. Junto ao formulário, mantemos o painel de identidade visual da LAB Motos, reforçando marca e consistência da interface. O objetivo é oferecer um fluxo de registro eficiente, validado e sem ambiguidades.
 
 ![alt text](<LAB MOTOS - Cadastro.jpg>)
 
 
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
-
-
 ## 6.3. Telas do processo 2
 
-_Descrição da tela relativa à atividade 1._
+Permite ao usuário monitorar o progresso de manutenções e interagir com a oficina.
+Cabeçalho: acesso às principais seções do sistema e autenticação de usuário.
+Banner de Serviços: exibe os serviços oferecidos com ícones e botão de contato rápido.
+Status Serviço: apresenta etapas da manutenção ("Em Espera", "Em Manutenção", "Concluído") com indicadores visuais.
+Relatório de Serviços: lista detalhadamente atividades realizadas e histórico técnico.
+Contatos: centraliza informações de comunicação (telefone, e-mail, redes sociais) e inscrição em newsletter.
+Rodapé: mantém identidade visual e informações institucionais.
 
-[`Tela da atividade 1`](images/)
+Objetivo: fornecer acompanhamento detalhado, transparência das operações e canal direto de comunicação.
+
+![alt text](<LAB MOTOS - Status.jpg>)
 
 _Descrição da tela relativa à atividade 2._
 
