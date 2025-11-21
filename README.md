@@ -15,6 +15,7 @@ A solução proposta consiste em um sistema baseado em banco de dados, que permi
 * Felippe Salvo de Mendonça
 * Gabriel Max Ferreira Rodrigues
 * Igor Tiago Ribeiro Matos
+* Joao Vitor Carvalho Domingos
 
 ## Orientador
 
