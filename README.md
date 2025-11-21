@@ -23,8 +23,8 @@ A solução proposta consiste em um sistema baseado em banco de dados, que permi
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização.  
-Descreva como instalar eventuais dependências e como executar a aplicação.  
+##Para utilizar o sistema LAB Motos, clone o repositório e instale as dependências necessárias. Configure as variáveis de ambiente de acordo com o banco de dados e a API utilizada. Após a configuração, execute a aplicação localmente ou via Docker conforme o ambiente desejado. O acesso ao sistema pode ser feito pelo navegador, realizando login ou cadastro de usuários para utilizar todas as funcionalidades de gerenciamento de estoque, clientes e serviços.
+
 
 # Documentação
 
@@ -45,55 +45,49 @@ Descreva como instalar eventuais dependências e como executar a aplicação.
 
 LAB Motos – Sistema de Gerenciamento e Controle de Estoque
 
-LAB Motos – Sistema de Gerenciamento e Controle de Estoque
-
 O sistema LAB Motos foi desenvolvido para resolver problemas críticos de gestão da oficina, que atualmente utiliza planilhas Excel para controle de estoque e não possui cadastro formal de clientes. Esse método manual gera inconsistências nos registros, dificuldades no acompanhamento de peças e materiais e falta de rastreabilidade das movimentações e serviços.
 
 O sistema oferece um módulo completo de controle de estoque, gestão de clientes e acompanhamento de serviços, com funcionalidades que permitem:
 
-Registro de entradas e saídas de peças: cada movimentação é rastreada, garantindo controle preciso do inventário.
-
-Gestão de estoque: monitoramento de quantidades disponíveis, produtos em reserva e níveis críticos, evitando faltas ou excessos.
-
-Cadastro e gerenciamento de clientes: registro completo das informações do cliente, acompanhamento de históricos de atendimento e controle de reservas de serviços.
-
-Gerenciamento de serviços: controle de manutenção das motos em formato Kanban, com status de cada serviço categorizado como "Em Espera", "Em Andamento" ou "Concluído", permitindo acompanhamento visual e atualização em tempo real.
-
-Relatórios gerenciais: geração de dados detalhados sobre estoque, movimentações, clientes e serviços, apoiando decisões estratégicas da oficina.
-
-Integração e consistência de dados: todas as operações centralizadas em banco de dados, eliminando erros de registros manuais.
+* **Registro de entradas e saídas de peças:** cada movimentação é rastreada, garantindo controle preciso do inventário.
+* **Gestão de estoque:** monitoramento de quantidades disponíveis, produtos em reserva e níveis críticos, evitando faltas ou excessos.
+* **Cadastro e gerenciamento de clientes:** registro completo das informações do cliente, acompanhamento de históricos de atendimento e controle de reservas de serviços.
+* **Gerenciamento de serviços:** controle de manutenção das motos em formato Kanban, com status de cada serviço categorizado como "Em Espera", "Em Andamento" ou "Concluído", permitindo acompanhamento visual e atualização em tempo real.
+* **Relatórios gerenciais:** geração de dados detalhados sobre estoque, movimentações, clientes e serviços, apoiando decisões estratégicas da oficina.
+* **Integração e consistência de dados:** todas as operações centralizadas em banco de dados, eliminando erros de registros manuais.
 
 Com essas funcionalidades, o sistema otimiza processos internos, reduz falhas operacionais, fornece transparência e organização, permitindo à equipe da LAB Motos gerenciar peças, clientes e serviços de forma eficiente, confiável e visualmente intuitiva.
+
 ## Histórico de versões
 
-1.0
+**1.0**
 
-Implementação inicial do sistema.
-Cadastro de usuários e movimentação de estoque.
-Modelagem do processo de negócio básica.
+* Implementação inicial do sistema.
+* Cadastro de usuários e movimentação de estoque.
+* Modelagem do processo de negócio básica.
 
-2.0
+**2.0**
 
-Ajustes de interface na Home Page e tela de login/cadastro.
-Correção de links e hrefs.
-Implementação de fluxo de autenticação com feedback visual.
+* Ajustes de interface na Home Page e tela de login/cadastro.
+* Correção de links e hrefs.
+* Implementação de fluxo de autenticação com feedback visual.
 
-3.0
+**3.0**
 
-Adição da Página de Acompanhamento de Serviços.
-Implementação do módulo de Status de Manutenção.
-Relatório detalhado das atividades realizadas.
+* Adição da Página de Acompanhamento de Serviços.
+* Implementação do módulo de Status de Manutenção.
+* Relatório detalhado das atividades realizadas.
 
-4.0
+**4.0**
 
-Implementação da Página do Administrador (Painel).
-CRUD completo para gerenciamento de peças no estoque.
-Links de gestão adicionais (Clientes cadastrados, Gerenciar widgets).
-Integração com banco de dados (substituindo JSON provisório).
+* Implementação da Página do Administrador (Painel).
+* CRUD completo para gerenciamento de peças no estoque.
+* Links de gestão adicionais (Clientes cadastrados, Gerenciar widgets).
+* Integração com banco de dados (substituindo JSON provisório).
 
-5.0
+**5.0**
 
-Atualização de links da API para o deploy.
-Ajustes de interface no Painel e na página de Acompanhamento.
-Adição do Dockerfile para deploy.
-Correções finais de navegação e layout.
+* Atualização de links da API para o deploy.
+* Ajustes de interface no Painel e na página de Acompanhamento.
+* Adição do Dockerfile para deploy.
+* Correções finais de navegação e layout.
