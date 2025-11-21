@@ -43,7 +43,21 @@ Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Apresentação
 
-* [Apresentação da solução](presentation/README.md)
+LAB Motos – Sistema de Gerenciamento e Controle de Estoque
+
+Atualmente, a oficina LAB Motos realiza o controle de estoque manualmente em planilhas Excel, o que gera inconsistências, perda de informações e dificuldades na gestão de peças e materiais. Além disso, não existe um sistema de cadastro de clientes, tornando difícil acompanhar históricos de atendimento e gerenciar reservas ou movimentações de produtos.
+
+Nosso projeto propõe um sistema completo para automatizar o controle de estoque e cadastro de clientes, permitindo:
+
+Registrar entradas e saídas de peças com rastreabilidade;
+
+Controlar quantitativos de produtos disponíveis e reservas;
+
+Cadastrar clientes e gerenciar históricos de atendimento;
+
+Gerar relatórios gerenciais para apoiar decisões da oficina.
+
+O sistema foi desenvolvido como solução direta para os problemas do cliente, otimizando processos internos, reduzindo erros e fornecendo transparência e organização para toda a equipe da LAB Motos.
 
 ## Histórico de versões
 
