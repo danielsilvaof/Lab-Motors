@@ -23,7 +23,7 @@ A solução proposta consiste em um sistema baseado em banco de dados, que permi
 
 ## Instruções de utilização
 
-##Para utilizar o sistema LAB Motos, clone o repositório e instale as dependências necessárias. Configure as variáveis de ambiente de acordo com o banco de dados e a API utilizada. Após a configuração, execute a aplicação localmente ou via Docker conforme o ambiente desejado. O acesso ao sistema pode ser feito pelo navegador, realizando login ou cadastro de usuários para utilizar todas as funcionalidades de gerenciamento de estoque, clientes e serviços.
+Para utilizar o sistema LAB Motos, clone o repositório e instale as dependências necessárias. Configure as variáveis de ambiente de acordo com o banco de dados e a API utilizada. Após a configuração, execute a aplicação localmente ou via Docker conforme o ambiente desejado. O acesso ao sistema pode ser feito pelo navegador, realizando login ou cadastro de usuários para utilizar todas as funcionalidades de gerenciamento de estoque, clientes e serviços.
 
 
 # Documentação
