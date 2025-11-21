@@ -39,8 +39,44 @@ Objetivo: fornecer acompanhamento detalhado, transparência das operações e ca
 
 ![alt text](<LAB MOTOS - Status.jpg>)
 
-_Descrição da tela relativa à atividade 2._
+A Página do Administrador é o módulo central de gerenciamento de estoque do sistema LAB Motos, acessada pela equipe interna.
 
-[`Tela da atividade 2`](images/)
+Componentes e Funcionalidades:
+
+Cabeçalho: logo da LAB Motos, menu de navegação (Home, Contato, Quem Somos, Serviços, Painel), botão SIGN UP e link Voltar para retornar à página anterior.
+
+Tabela de Estoque (Inventário): exibe informações de cada peça:
+
+ID Peça: código único (Chave Primária).
+
+Nome da Peça: descrição do item.
+
+Valor Unitário: preço de venda ou custo.
+
+Quantidade: saldo disponível em estoque.
+
+Campo de Busca: pesquisa rápida por produto.
+
+CRUD:
+
+Adicionar (C): botão para incluir nova peça no estoque.
+
+Editar (U): botão para modificar informações da peça; quantidade pode ser ajustada diretamente.
+
+Remover (D): ícone “X” para excluir item.
+
+Ler (R): dados visíveis diretamente na tabela.
+
+Links de Gestão Adicionais:
+
+Clientes cadastrados: acesso ao módulo de gestão de clientes.
+
+Gerenciar widgets: configuração do painel e interface.
+
+Rodapé: informações institucionais, contato e direitos autorais, mantendo consistência visual.
+
+Objetivo: permitir ao administrador controlar o estoque com precisão, atualizar dados em tempo real, gerenciar peças e integrar módulos auxiliares para suporte à gestão da oficina.
+
+![alt text](<LAB MOTOS - Painel ADM.jpg>)
 
 
