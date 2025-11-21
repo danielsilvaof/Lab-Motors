@@ -25,6 +25,14 @@ A tela principal foi projetada para ser intuitiva, responsiva e visualmente atra
 
 <img width="1302" height="563" alt="image" src="https://github.com/user-attachments/assets/d4882a63-9b35-48d4-bdba-9fa912a48eee" />
 
+<img width="1301" height="561" alt="image" src="https://github.com/user-attachments/assets/e0d9a4e4-bf9d-4869-be51-76810a3d04c3" />
+
+<img width="1298" height="525" alt="image" src="https://github.com/user-attachments/assets/c443be66-e9c2-458f-936c-a6e52d6aa646" />
+
+<img width="1292" height="610" alt="image" src="https://github.com/user-attachments/assets/633a7ea5-bc09-4f62-9598-828c8f4375fe" />
+
+
+
 
 
 ## 6.2. Telas do processo 1
