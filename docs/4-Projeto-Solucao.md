@@ -80,11 +80,11 @@ Agendamento
 
 #### 4.3.1 Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+<img width="438" height="392" alt="image" src="https://github.com/user-attachments/assets/c1e91636-de04-4173-9127-0d3f2755dbc4" />
+<img width="226" height="594" alt="image" src="https://github.com/user-attachments/assets/d6543d2f-0232-4522-994d-869a10d6b8dc" />
+<img width="237" height="267" alt="image" src="https://github.com/user-attachments/assets/3c510112-22be-4677-84d2-3026aab7916c" />
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 #### 4.3.2 Esquema Relacional
 
