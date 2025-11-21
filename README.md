@@ -45,20 +45,25 @@ Descreva como instalar eventuais dependências e como executar a aplicação.
 
 LAB Motos – Sistema de Gerenciamento e Controle de Estoque
 
-Atualmente, a oficina LAB Motos realiza o controle de estoque manualmente em planilhas Excel, o que gera inconsistências, perda de informações e dificuldades na gestão de peças e materiais. Além disso, não existe um sistema de cadastro de clientes, tornando difícil acompanhar históricos de atendimento e gerenciar reservas ou movimentações de produtos.
+LAB Motos – Sistema de Gerenciamento e Controle de Estoque
 
-Nosso projeto propõe um sistema completo para automatizar o controle de estoque e cadastro de clientes, permitindo:
+O sistema LAB Motos foi desenvolvido para resolver problemas críticos de gestão da oficina, que atualmente utiliza planilhas Excel para controle de estoque e não possui cadastro formal de clientes. Esse método manual gera inconsistências nos registros, dificuldades no acompanhamento de peças e materiais e falta de rastreabilidade das movimentações e serviços.
 
-Registrar entradas e saídas de peças com rastreabilidade;
+O sistema oferece um módulo completo de controle de estoque, gestão de clientes e acompanhamento de serviços, com funcionalidades que permitem:
 
-Controlar quantitativos de produtos disponíveis e reservas;
+Registro de entradas e saídas de peças: cada movimentação é rastreada, garantindo controle preciso do inventário.
 
-Cadastrar clientes e gerenciar históricos de atendimento;
+Gestão de estoque: monitoramento de quantidades disponíveis, produtos em reserva e níveis críticos, evitando faltas ou excessos.
 
-Gerar relatórios gerenciais para apoiar decisões da oficina.
+Cadastro e gerenciamento de clientes: registro completo das informações do cliente, acompanhamento de históricos de atendimento e controle de reservas de serviços.
 
-O sistema foi desenvolvido como solução direta para os problemas do cliente, otimizando processos internos, reduzindo erros e fornecendo transparência e organização para toda a equipe da LAB Motos.
+Gerenciamento de serviços: controle de manutenção das motos em formato Kanban, com status de cada serviço categorizado como "Em Espera", "Em Andamento" ou "Concluído", permitindo acompanhamento visual e atualização em tempo real.
 
+Relatórios gerenciais: geração de dados detalhados sobre estoque, movimentações, clientes e serviços, apoiando decisões estratégicas da oficina.
+
+Integração e consistência de dados: todas as operações centralizadas em banco de dados, eliminando erros de registros manuais.
+
+Com essas funcionalidades, o sistema otimiza processos internos, reduz falhas operacionais, fornece transparência e organização, permitindo à equipe da LAB Motos gerenciar peças, clientes e serviços de forma eficiente, confiável e visualmente intuitiva.
 ## Histórico de versões
 
 1.0
