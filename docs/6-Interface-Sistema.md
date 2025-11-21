@@ -39,7 +39,7 @@ A tela principal foi projetada para ser intuitiva, responsiva e visualmente atra
 
 _Descrição da tela relativa à atividade 1._
 
-[`Tela da atividade 1`](images/)
+![alt text](<LAB MOTOS - Home Page.jpg>)
 
 _Descrição da tela relativa à atividade 2._
 
