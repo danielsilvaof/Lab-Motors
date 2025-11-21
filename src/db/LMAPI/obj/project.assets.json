@@ -1254,11 +1254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\depaus\\LabMotors-TesteDeTraavis\\LMAPI\\LMAPI.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\original\\psg-ads-2025-2-p2-tiapn-7369100-lab-motos\\src\\db\\LMAPI\\LMAPI.csproj",
       "projectName": "LMAPI",
-      "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\depaus\\LabMotors-TesteDeTraavis\\LMAPI\\LMAPI.csproj",
+      "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\original\\psg-ads-2025-2-p2-tiapn-7369100-lab-motos\\src\\db\\LMAPI\\LMAPI.csproj",
       "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\depaus\\LabMotors-TesteDeTraavis\\LMAPI\\obj\\",
+      "outputPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\original\\psg-ads-2025-2-p2-tiapn-7369100-lab-motos\\src\\db\\LMAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
