@@ -27,7 +27,7 @@ Em síntese, o fluxo atual depende fortemente do esforço humano e não garante 
 
 ### 3.2. Descrição geral da proposta (Modelagem TO-BE)
 
-## 🛑 Análise dos Processos (AS-IS): Problemas Existentes na LAB Motos
+##  Análise dos Processos (AS-IS): Problemas Existentes na LAB Motos
 
 O processo atual, altamente manual e baseado em planilhas, gera cinco problemas principais que afetam a eficiência operacional, a confiabilidade dos dados e a satisfação do cliente.
 
