@@ -47,9 +47,34 @@ Descreva como instalar eventuais dependências e como executar a aplicação.
 
 ## Histórico de versões
 
-* 0.1.1  
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.  
-* 0.1.0  
-    * Implementação da funcionalidade de cadastro e movimentação de estoque.  
-* 0.0.1  
-    * Trabalhando na modelagem do processo de negócio.  
+1.0
+
+Implementação inicial do sistema.
+Cadastro de usuários e movimentação de estoque.
+Modelagem do processo de negócio básica.
+
+2.0
+
+Ajustes de interface na Home Page e tela de login/cadastro.
+Correção de links e hrefs.
+Implementação de fluxo de autenticação com feedback visual.
+
+3.0
+
+Adição da Página de Acompanhamento de Serviços.
+Implementação do módulo de Status de Manutenção.
+Relatório detalhado das atividades realizadas.
+
+4.0
+
+Implementação da Página do Administrador (Painel).
+CRUD completo para gerenciamento de peças no estoque.
+Links de gestão adicionais (Clientes cadastrados, Gerenciar widgets).
+Integração com banco de dados (substituindo JSON provisório).
+
+5.0
+
+Atualização de links da API para o deploy.
+Ajustes de interface no Painel e na página de Acompanhamento.
+Adição do Dockerfile para deploy.
+Correções finais de navegação e layout.
