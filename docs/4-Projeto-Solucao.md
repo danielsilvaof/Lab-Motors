@@ -177,9 +177,9 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
-| SGBD           | SQL Server           |
-| Front end      | HTML+CSS+JS/ React     |
+| SGBD           | SUPABASE / PostgreSQL           |
+| Front end      | HTML+CSS+JS     |
 | Back end       | C# |
-| Deploy         | Github/ Azure    |
+| Deploy         | Netlify / Render    |
 
 
