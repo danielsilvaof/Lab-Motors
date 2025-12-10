@@ -1,29 +1,33 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: LabMotos 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Silva
+    given-names: Bruno
+  - family-names: Oliveira
+    given-names: Daniel
+  - family-names: Parma
+    given-names: Davi
+  - family-names: Salvo
+    given-names: Felippe
+  - family-names: Max
+    given-names: Gabriel
+ - family-names: Ribeiro
+    given-names: Igor
+ - family-names: Carvalho
+    given-names: João
 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jandre
+    given-names: Caroline
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
     given-names: 
     keywords:
     - 
-repository-code: 
+repository-code: https://github.com/ICEI-PUC-Minas-PSG-ADS-TI/psg-ads-2025-2-p2-tiapn-7369100-lab-motos.git
 license: CC-BY-4.0
 version: 1.0.0
-date-released:
+date-released: 12/12/2025
