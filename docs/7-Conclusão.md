@@ -10,4 +10,4 @@ Como continuidade deste trabalho, recomenda-se a exploração de novas linhas de
 
 ---
 
-Se quiser, posso adaptar pra um tom mais formal, mais direto ou mais técnico.
+
