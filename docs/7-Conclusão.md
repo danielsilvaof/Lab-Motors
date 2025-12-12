@@ -1,13 +1,24 @@
 ## 7. Conclusão
 
-<span style="color:red">Pré-requisitos: <a href="6-Interface-Sistema.md"> Projeto da Solução</a></span>
+A conclusão deste projeto evidencia a relevância e o impacto das soluções desenvolvidas para otimizar o fluxo operacional da organização, especialmente no que diz respeito ao processo de agendamentos, acompanhamento de serviços, gestão interna e comunicação entre usuários e administradores. A partir do estudo aprofundado dos requisitos e da reestruturação completa do sistema, foi possível construir uma interface mais clara, objetiva e funcional, reduzindo gargalos, evitando retrabalhos e proporcionando uma experiência significativamente superior.
 
-A solução desenvolvida ao longo do projeto apresentou melhorias significativas nos processos analisados, especialmente no fluxo de agendamentos, acompanhamento de serviços e organização interna por meio do painel administrativo e do quadro Kanban. A implementação das interfaces propostas permitiu tornar o sistema mais intuitivo, reduzindo retrabalhos e ampliando a visibilidade das etapas operacionais, tanto para usuários quanto para administradores.
+A evolução proposta não se limitou apenas ao visual; houve melhorias estruturais que tornaram as operações mais organizadas e transparentes, com destaque para a incorporação de um painel administrativo robusto e um quadro Kanban capaz de representar cada etapa do fluxo de trabalho de forma dinâmica e acessível. Essa abordagem permitiu maior previsibilidade, controle e velocidade na resolução de demandas, ampliando a capacidade de resposta da equipe e garantindo maior satisfação dos usuários.
 
-Apesar dos avanços, algumas limitações ainda podem ser observadas, como a necessidade de ampliar testes com usuários reais, otimizar a integração entre módulos e evoluir o design para tornar a experiência ainda mais fluida. Além disso, o sistema pode se beneficiar de recursos adicionais, como notificações automáticas, histórico detalhado de serviços e relatórios gerenciais mais completos.
+Além disso, a padronização das telas, a reorganização das informações e a implementação de fluxos mais intuitivos contribuem para um uso mais natural e eficiente do sistema. Essas melhorias conferem ao projeto maior maturidade, tornando-o preparado para futuras expansões e para a adoção de novas funcionalidades que possam surgir de necessidades estratégicas da organização.
 
-Como continuidade deste trabalho, recomenda-se a exploração de novas linhas de estudo, incluindo aprimoramentos na usabilidade, evolução da arquitetura para suportar maior escala e a aplicação de técnicas de análise de dados para apoiar decisões estratégicas. Dessa forma, o projeto pode evoluir para uma solução ainda mais robusta, eficiente e alinhada às necessidades dos usuários e da organização.
+Entretanto, como todo sistema em evolução, ainda existem aspectos que podem ser aprimorados. Reforça-se a necessidade de testes contínuos com usuários reais, permitindo validar decisões de design, compreender melhor o comportamento dos usuários e refinar funcionalidades com base em dados concretos. Outro ponto importante está relacionado à integração entre módulos, que pode ser aprofundada para garantir que todas as áreas do sistema se comuniquem de maneira sólida, escalável e eficiente.
 
----
+Entre as possibilidades de expansão futura, destacam-se:
 
+Automação de notificações para avisos de status de serviços e lembretes de agendamento;
+
+Painéis analíticos e relatórios avançados, permitindo decisões mais embasadas;
+
+Histórico detalhado de operações, fortalecendo o controle e a rastreabilidade de cada serviço;
+
+Aprimoramento da acessibilidade e responsividade, ampliando o uso em dispositivos variados;
+
+Otimizações de arquitetura, garantindo maior escalabilidade e estabilidade à medida que o sistema cresce.
+
+Em suma, o projeto demonstra um avanço significativo na forma como os processos são estruturados, monitorados e executados. As melhorias implementadas criam bases sólidas para uma solução moderna, eficiente e alinhada às necessidades atuais e futuras da organização. A continuidade desse trabalho permitirá a evolução constante do sistema, assegurando que ele acompanhe a transformação digital e o aumento da complexidade operacional, mantendo-se relevante, confiável e inovador.
 
